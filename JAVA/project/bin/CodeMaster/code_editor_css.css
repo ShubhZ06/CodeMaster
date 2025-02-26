@@ -1,0 +1,319 @@
+.root {
+    -fx-background-radius: 10;
+}
+
+.navbar {
+    -fx-background-color: #1E1E1E;
+    -fx-background-radius: 10px 10px 0px 0px;
+}
+.navbar-login {
+    -fx-background-color: #101010;
+    -fx-background-radius: 20px 20px 0px 0px;
+}
+.navbar-terminal{
+    -fx-background-color: #1a1919;
+    -fx-background-radius: 20px 20px 0px 0px;
+}
+
+.window {
+    -fx-background-radius: 10;
+    -fx-background-color: rgba(11, 11, 11,0.94);
+    
+}
+
+.cont1 {
+    -fx-background-radius: 10;
+    -fx-background-color: rgba(44, 43, 43, 0.6);
+
+}
+.terminal_container{
+    -fx-background-radius: 10;
+    -fx-background-color: rgba(44, 43, 43, 0.6);
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-border-color: rgba(255, 255, 255, 0.4);
+    -fx-padding: 10px;
+}
+.loginpage {
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-background-color: rgba(20, 20, 20, 0.9);
+    -fx-border-width: 0.5px;
+    -fx-border-color: rgba(255, 255, 255,0.4);
+
+}
+.home {
+    -fx-background-radius: 10;
+    -fx-background-color: rgba(44, 43, 43, 0.6);
+
+}
+.close {
+    -fx-background-color: rgb(255, 95, 87);
+    /* Button background color */
+    -fx-background-radius: 50%;
+    /* Make the button circular */
+    -fx-border-radius: 50%;
+    /* Ensure the border matches the button's circular shape */
+}
+
+.min-button {
+    -fx-background-color: rgb(255, 189, 46);
+    /* Button background color */
+    -fx-background-radius: 50%;
+    /* Make the button circular */
+    -fx-border-radius: 50%;
+    /* Ensure the border matches the button's circular shape */
+}
+
+.max-button {
+    -fx-background-color: rgb(40, 201, 65);
+    /* Button background color */
+    -fx-background-radius: 50%;
+    /* Make the button circular */
+    -fx-border-radius: 50%;
+    /* Ensure the border matches the button's circular shape */
+}
+.font{
+    -fx-font-size: 16px;
+    -fx-font-family: "-apple-system, BlinkMacSystemFont";
+}
+.create-btn{
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-border-color:white;
+    -fx-border-radius: 50px;
+    -fx-font-size: 18px;
+    -fx-font-family: "-apple-system, BlinkMacSystemFont";
+    -fx-text-fill: rgb(255, 255, 255);
+
+}
+
+.create-btn:hover {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-border-color: white;
+    -fx-font-size: 20px;
+    
+}
+
+.already_button:hover {
+    -fx-font-size: 13px;
+    
+}
+.username-field{
+    -fx-font-size: 16px;
+    -fx-font-family: "-apple-system, BlinkMacSystemFont";
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-border-color: rgba(255, 255, 255, 0.4);
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-radius: 10px 10px 0px 0px;
+
+}
+.password-field{
+    -fx-font-size: 16px;
+    -fx-font-family: "-apple-system, BlinkMacSystemFont";
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-border-color: rgba(255, 255, 255, 0.4);
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-radius: 10px 10px 0px 0px;
+
+}
+.question-field{
+    -fx-font-size: 16px;
+    -fx-font-family: "-apple-system, BlinkMacSystemFont";
+    -fx-text-fill: rgb(38, 35, 35);
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-border-color: rgba(255, 255, 255, 0.4);
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-radius: 10px 10px 0px 0px;
+
+}
+.already_button{
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-font-size: 12px;
+    -fx-font-family: "-apple-system, BlinkMacSystemFont";
+    -fx-text-fill: rgb(255, 255, 255);
+}
+
+.arrow-down {
+   -fx-image-fill: rgba(255, 255, 255)
+}
+
+.scrollpane {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    fx-border-color: rgba(255, 255, 255, 0.4);
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-radius: 10px 10px 0px 0px;
+}
+
+.window_scroll {
+   
+    -fx-background-color: #1919199f;
+    -fx-background-radius: 10;
+}
+/* General Table Style */
+.table {
+    -fx-background-color: #1c1c1e; /* Dark background for the table */
+    -fx-border-color: #2c2c2e; /* Border color for the table */
+    -fx-border-width: 1px; /* Border width for the table */
+    -fx-border-style: solid; /* Border style for the table */
+    -fx-border-radius: 10; /* Border radius for the table */
+    -fx-font-size: 16px; /* Font size for the table */
+    -fx-padding: 10px; /* Padding inside table cells */
+    -fx-background-insets: 0; /* No background insets for the table */
+    -fx-table-cell-border-color: transparent; /* No border for table cells */
+    -fx-table-row-border-color: transparent; /* No border for table rows */
+    -fx-cell-selection-color: rgba(255, 255, 255, 0.1); /* Selection color for table cells */
+}
+
+/* Table Header Style */
+.table-header {
+    -fx-background-color: #00000000; /* Darker background for the header */
+    -fx-text-fill: #ffffff; /* White text for header */
+    -fx-font-size: 16px; /* Font size for header */
+    -fx-padding: 10px; /* Padding inside header cells */
+}
+
+/* Table Row Style */
+.table-row {
+    -fx-background-color: #1c1c1e; /* Row background color */
+}
+
+/* Alternate Row Color for Better Readability */
+.table-row:nth-child(even) {
+    -fx-background-color: #1d1d1d; /* Lighter background for even rows */
+}
+
+/* Table Cell Style */
+.table-cell {
+    -fx-background-color: #1c1c1e; /* Cell background color */
+    -fx-text-fill: #ffffff; /* White text for cells */
+    -fx-font-size: 16px; /* Font size for cells */
+    -fx-padding: 10px; /* Padding inside cells */
+}
+
+/* Hide Scroll Bars */
+.table .scroll-bar:horizontal,
+.table .scroll-bar:vertical {
+    -fx-opacity: 0; /* Makes the scroll bars invisible */
+    -fx-pref-height: 0; /* Hides the horizontal scroll bar */
+    -fx-pref-width: 0; /* Hides the vertical scroll bar */
+}
+
+.terminalpage {
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-background-color: rgba(17, 17, 17, 0.948);
+    -fx-border-width: 0.5px;
+    -fx-border-color: rgba(255, 255, 255,0.4);
+
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-padding: 0;
+}
+
+.button:hover {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.button:pressed {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.button .image {
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: contain;
+    -fx-background-radius: 10; /* Change this value to adjust the border radius */
+}
+.text-area {
+    -fx-background-color:black;       /* Makes the background transparent */
+    -fx-control-inner-background: rgb(0, 0, 0); /* Removes the inner background */
+    -fx-border-width: 1px;
+    -fx-border-color: rgba(255, 255, 255,0.4);
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-font-size:16px;
+    -fx-text-fill: rgb(255, 255, 255);  
+    -fx-padding:5px;                   /* Sets the text color (change as needed) */
+}
+.text-area .scroll-bar:vertical, 
+.text-area .scroll-bar:horizontal {
+    -fx-background-color: transparent; /* Make the scrollbar background transparent */
+    -fx-opacity: 0; /* Makes the scroll bars invisible */
+}
+
+.text-area .scroll-bar:vertical > .track,
+.text-area .scroll-bar:horizontal > .track {
+    -fx-background-color: rgba(255, 255, 255, 0.2); /* Track color, can adjust opacity */
+    -fx-background-insets: 0; /* No insets for the track */
+}
+
+.text-area .scroll-bar:vertical > .thumb,
+.text-area .scroll-bar:horizontal > .thumb {
+    -fx-background-color: rgba(255, 255, 255, 0.4); /* Thumb color */
+    -fx-background-insets: 0; /* No insets for the thumb */
+    -fx-background-radius: 10; /* Rounded corners for the thumb */
+}
+.combo-box {
+    -fx-background-color: rgba(44, 43, 43, 0.6); /* Background color */
+    -fx-background-radius: 10; /* Rounded corners */
+    -fx-border-color: rgba(255, 255, 255, 0.4); /* Border color */
+    -fx-border-radius: 10; /* Border radius */
+    -fx-border-width: 1px; /* Border width */
+    -fx-text-fill: rgb(255, 255, 255); /* Text color */
+    -fx-font-size: 16px; /* Font size */
+    -fx-font-family: "-apple-system, BlinkMacSystemFont"; /* Font family */
+}
+
+.combo-box .list-view {
+    -fx-background-color: rgba(44, 43, 43, 0.6); /* Background of dropdown */
+    -fx-border-color: rgba(255, 255, 255, 0.4); /* Border color of dropdown */
+    -fx-border-radius: 10; /* Rounded corners */
+    -fx-text-fill: rgb(255, 255, 255); /* Text color in dropdown */
+}
+
+.combo-box .list-view .list-cell {
+    -fx-background-color: transparent; /* Background color for individual items */
+    -fx-text-fill: rgb(255, 255, 255); /* Text color for items */
+}
+
+.combo-box .list-view .list-cell:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.1); /* Hover effect */
+}
+.combo-box .list-view .list-cell:selected {
+    -fx-background-color: rgba(255, 255, 255, 0.1); /* Background color for selected item */
+    -fx-text-fill: rgb(255, 255, 255); /* White text for selected item */
+}
+
+
+.terminal-btn{
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-border-color:white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 20px;
+    -fx-font-size: 18px;
+    -fx-font-family: "-apple-system, BlinkMacSystemFont";
+    -fx-text-fill: rgb(255, 255, 255);
+
+}
+
+.terminal-btn:hover {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-border-color: rgb(38, 255, 0);
+    -fx-border-width: 1px;
+    -fx-font-size: 19px;
+    
+}
+

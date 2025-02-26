@@ -1,0 +1,41 @@
+
+
+
+Report Date: Sunday, 22 September 2024
+Report Time [hh:mm:ss]: 01:41:31 PM
+Operating System: Microsoft Windows 11 Home Single Language 10.0.22631
+IGCC Version: 1.100.5635.0
+Language: en-US
+Physical Memory: 23.78 GB 
+Current Resolution: 1920x1080
+
+
+
+Processor: 12th Gen Intel(R) Core(TM) i5-12450HX
+Processor Speed: 2400 MHz
+GFX Driver Name: NVIDIA GeForce RTX 4060 Laptop GPU
+Shader Version: NA
+OpenCL* Version: NA
+* Microsoft DirectX* *
+Runtime Version: NA
+Hardware-Supported Version: NA
+Vendor ID: 10DE
+Device ID: 28E0
+Device Revision: A1
+GFX Driver Version: 31.0.15.4630
+Dedicated RAM: 8 GB
+Shared RAM: 12 GB
+Max Supported Displays: NA
+GFX Vulcan: 
+
+
+
+* Devices connected to the Graphics Accelerator *
+
+
+Active Displays: 1
+
+
+
+
+* Other names and brands are the property of their respective owners.

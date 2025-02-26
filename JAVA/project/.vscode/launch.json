@@ -1,0 +1,155 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MON1",
+            "request": "launch",
+            "mainClass": "CodeMaster.MON1",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "CodeMaster.App",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "HelloAditiyaJavaFX",
+            "request": "launch",
+            "mainClass": "CodeMaster.HelloAditiyaJavaFX",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "MON",
+            "request": "launch",
+            "mainClass": "CodeMaster.MON",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "CodingApp",
+            "request": "launch",
+            "mainClass": "CodeMaster.CodingApp",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "TransparentScrollPaneExample",
+            "request": "launch",
+            "mainClass": "CodeMaster.TransparentScrollPaneExample",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "MultiLangCodeExecutor",
+            "request": "launch",
+            "mainClass": "CodeMaster.MultiLangCodeExecutor",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "CodeExecutor",
+            "request": "launch",
+            "mainClass": "CodeMaster.CodeExecutor",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "CompilerIntegration",
+            "request": "launch",
+            "mainClass": "CodeMaster.CompilerIntegration",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "WebCompiler",
+            "request": "launch",
+            "mainClass": "CodeMaster.WebCompiler",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "dashboard",
+            "request": "launch",
+            "mainClass": "CodeMaster.dashboard",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "base",
+            "request": "launch",
+            "mainClass": "CodeMaster.base",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "base",
+            "request": "launch",
+            "mainClass": "UndecoratedStage.base",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "UndecoratedStage.main",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "CustomRoundedStage",
+            "request": "launch",
+            "mainClass": "UndecoratedStage.CustomRoundedStage",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "SimpleStage",
+            "request": "launch",
+            "mainClass": "UndecoratedStage.SimpleStage",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "SimpleStage",
+            "request": "launch",
+            "mainClass": "SimpleStage",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "GlassEffect",
+            "request": "launch",
+            "mainClass": "GlassEffect",
+            "projectName": "project_381996e4"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "project_381996e4",
+            "vmArgs": "--module-path C:/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+.controlpanel{
+
+    -fx-background-color:rgba(22, 22, 22, 0.304);
+    -fx-background-radius:60px;
+    -fx-border-color:rgba(201, 200, 200, 0.393);
+    -fx-border-radius: 50px;
+    -fx-border-width: 0.5px;
+
+}
+
+.controlpanel_button{
+    -fx-background-color:rgba(22, 22, 22, 0);
+
+    -fx-font-size: 12px;
+    -fx-font-family: "-apple-system, BlinkMacSystemFont";
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-background-radius: 50px;
+}
+
+
+.controlpanel_button:hover
+{
+    -fx-background-color:rgba(44, 44, 44, 0.521);
+
+    -fx-font-size: 13px;
+    -fx-border-color:rgba(140, 139, 139, 0.503);
+    -fx-border-radius: 50px;
+}
+
+

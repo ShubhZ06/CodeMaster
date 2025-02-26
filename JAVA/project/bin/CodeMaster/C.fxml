@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" styleClass="window" stylesheets="@style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CodeMaster.c_controller">
+   <children>
+      <Pane prefHeight="30.0" prefWidth="1000.0" styleClass="navbar" stylesheets="@style.css">
+         <children>
+            <Label fx:id="close_window" layoutX="14.0" layoutY="7.0" minWidth="17.0" onMouseClicked="#closewindow" prefHeight="10.0" prefWidth="18.0" styleClass="close" stylesheets="@style.css">
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label fx:id="prev_window" layoutX="37.0" layoutY="7.0" minWidth="17.0" onMouseClicked="#backwindow" prefHeight="10.0" prefWidth="18.0" styleClass="min-button" stylesheets="@style.css">
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label fx:id="max_window" layoutX="59.0" layoutY="7.0" minWidth="17.0" onMouseClicked="#maximizeWindow" prefHeight="10.0" prefWidth="18.0" styleClass="max-button" stylesheets="@style.css">
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label layoutX="470.0" layoutY="6.0" text="Playground - C" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="head_text" layoutX="921.0" layoutY="6.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+    <AnchorPane layoutX="8.0" layoutY="225.0" minHeight="0.0" minWidth="0.0" prefHeight="517.0" prefWidth="976.0" styleClass="window_scroll" stylesheets="@style.css">
+         <children>
+            <TableView fx:id="questionsTable" layoutX="13.0" layoutY="11.0" onSort="#initialize" prefHeight="491.0" prefWidth="954.0" stylesheets="@style.css">
+              <columns>
+                <TableColumn fx:id="srNoColumn" prefWidth="100.0" styleClass="table-column" text="Sr No" />
+                <TableColumn fx:id="questionColumn" prefWidth="600.0" styleClass="table-column" text="Question" />
+                <TableColumn fx:id="solutionColumn" prefWidth="253.06671142578125" text="Solution" />
+              </columns>
+               <styleClass>
+                  <String fx:value="table" />
+                  <String fx:value="table-header" />
+                  <String fx:value="table-row" />
+                  <String fx:value="table-cell" />
+               </styleClass>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <StackPane fx:id="stackpane" layoutX="271.0" layoutY="267.0" prefHeight="442.0" prefWidth="413.0" visible="false">
+         <children>
+            <Pane id="body" fx:id="solutionpane" prefHeight="323.0" prefWidth="414.0" styleClass="loginpage" stylesheets="@style.css">
+               <children>
+                  <Pane id="nav" layoutX="1.0" layoutY="1.0" prefHeight="32.0" prefWidth="412.0" styleClass="navbar-login" stylesheets="@style.css">
+                     <children>
+                        <ImageView id="arrow_down" fx:id="arrow_down" fitHeight="24.0" fitWidth="21.0" layoutX="382.0" layoutY="6.0" onMouseClicked="#closeform" pickOnBounds="true" preserveRatio="true" styleClass="arrow-down">
+                           <image>
+                              <Image url="@../../../arrow.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="-0.21" contrast="0.09" />
+                           </effect>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                        <Label layoutX="192.0" layoutY="8.0" text="SOLUTION" textFill="WHITE">
+                           <effect>
+                              <Glow level="0.42" />
+                           </effect>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <ScrollPane hbarPolicy="NEVER" layoutX="2.0" layoutY="36.0" prefHeight="398.0" prefWidth="412.0" stylesheets="@style.css" vbarPolicy="NEVER">
+                     <styleClass>
+                        <String fx:value="scrollpane" />
+                        <String fx:value="window_scroll" />
+                     </styleClass>
+                     <content>
+                        <Pane prefHeight="628.0" prefWidth="406.0">
+                           <children>
+                              <Text fx:id="textplace" fill="WHITE" layoutX="29.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="206.67008018493652" />
+                           </children>
+                        </Pane>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </Pane>
+         </children>
+      </StackPane>
+      <ImageView fitHeight="176.0" fitWidth="951.0" layoutX="23.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Users/shubh/Downloads/Black%20Green%20Tech%20Programmer%20Presentation%20(958%20x%20178%20px).png" />
+         </image>
+         <effect>
+            <Lighting diffuseConstant="1.57" specularConstant="0.13" specularExponent="32.11" surfaceScale="5.26">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+   </children>
+</AnchorPane>

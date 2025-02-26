@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" styleClass="window" stylesheets="@style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CodeMaster.base_controller">
+   <children>
+      <Pane prefHeight="30.0" prefWidth="1000.0" stylesheets="@style.css">
+         <children>
+            <Label layoutX="14.0" layoutY="7.0" minWidth="17.0" onMouseClicked="#closewindow" prefHeight="10.0" prefWidth="18.0" styleClass="close" stylesheets="@style.css">
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label layoutX="37.0" layoutY="7.0" minWidth="17.0" prefHeight="10.0" prefWidth="18.0" styleClass="min-button" stylesheets="@style.css">
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label layoutX="59.0" layoutY="7.0" minWidth="17.0" onMouseClicked="#maximizeWindow" prefHeight="10.0" prefWidth="18.0" styleClass="max-button" stylesheets="@style.css">
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label layoutX="464.0" layoutY="2.0" prefHeight="27.0" prefWidth="45.0" styleClass="font" stylesheets="@style.css" text="Home" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+         </children>
+         <styleClass>
+            <String fx:value="navbar" />
+            <String fx:value="glass" />
+         </styleClass>
+      </Pane>
+      <AnchorPane layoutX="9.0" layoutY="40.0" prefHeight="699.0" prefWidth="976.0" styleClass="cont1" stylesheets="@style.css">
+         <children>
+            <Text fill="WHITE" layoutX="544.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A New Way to Learn.." textAlignment="CENTER" wrappingWidth="340.0032958984375">
+               <font>
+                  <Font name="Bell MT" size="55.0" />
+               </font>
+            </Text>
+            <Button fx:id="alreadyhave_button" layoutX="641.0" layoutY="327.0" mnemonicParsing="false" onAction="#switchform" prefHeight="26.0" prefWidth="178.0" styleClass="already_button" stylesheets="@style.css" text="Already have an account ?" textOverrun="CENTER_ELLIPSIS">
+               <effect>
+                  <Glow />
+               </effect>
+            </Button>
+            <Button fx:id="create_button" layoutX="630.0" layoutY="263.0" mnemonicParsing="false" onAction="#switchform" prefHeight="58.0" prefWidth="189.0" stylesheets="@style.css" text="Create Account" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font size="8.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+               <styleClass>
+                  <String fx:value="window" />
+                  <String fx:value="create-btn" />
+               </styleClass>
+            </Button>
+            <Text fill="WHITE" layoutX="18.0" layoutY="396.0" lineSpacing="8.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unlock the power of coding with CodeMaster, the ultimate learning platform designed to make mastering programming languages engaging and effective. Our app combines interactive quizzes with comprehensive notes to provide a fun, challenging, and educational experience. Whether you’re a beginner or looking to sharpen your skills, CodeMaster offers a personalized learning journey that adapts to your pace.&#10;Interactive Quizzes: Test your knowledge with quizzes that reinforce concepts and challenge your understanding.&#10;Comprehensive Notes: Access detailed notes that break down complex topics into simple, easy-to-understand explanations.&#10;Progress Tracking: Monitor your progress and see how you’re improving over time.&#10;Start your coding journey with CodeMaster today, and turn your curiosity into expertise!" textAlignment="JUSTIFY" wrappingWidth="943.7365112304688">
+               <font>
+                  <Font name="Segoe UI Semibold" size="18.0" />
+               </font>
+               <effect>
+                  <Glow level="0.14" />
+               </effect>
+            </Text>
+            <Label layoutX="18.0" layoutY="313.0" text="Welcome,To CodeMaster!" textFill="WHITE">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="338.0" fitWidth="356.0" layoutX="58.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/shubh/Downloads/Designer%20(3)-fotor-bg-remover-20240808162422.png" />
+               </image>
+               <effect>
+                  <Glow>
+                     <input>
+                        <Glow />
+                     </input>
+                  </Glow>
+               </effect>
+            </ImageView>
+            <StackPane layoutX="236.0" layoutY="17.0" prefHeight="591.0" prefWidth="392.0">
+               <children>
+                  <Pane id="loginpage" fx:id="login_page" prefHeight="591.0" prefWidth="392.0" styleClass="loginpage" stylesheets="@style.css" visible="false">
+                     <effect>
+                        <DropShadow height="58.42" radius="25.2025" width="44.39" />
+                     </effect>
+                     <children>
+                        <Pane layoutX="1.0" layoutY="1.0" prefHeight="31.0" prefWidth="390.0" styleClass="navbar-login" stylesheets="@style.css">
+                           <children>
+                              <Text fill="WHITE" layoutX="145.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account setup">
+                                 <font>
+                                    <Font name="Arial" size="14.0" />
+                                 </font>
+                              </Text>
+                              <ImageView id="arrow_down" fx:id="arrow_down" fitHeight="24.0" fitWidth="21.0" layoutX="361.0" layoutY="5.0" onMouseClicked="#closeform" pickOnBounds="true" preserveRatio="true" styleClass="arrow-down">
+                                 <image>
+                                    <Image url="@../../../arrow.png" />
+                                 </image>
+                                 <effect>
+                                    <ColorAdjust brightness="-0.21" contrast="0.09" />
+                                 </effect>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ImageView>
+                           
+                           </children>
+                        </Pane>
+                        <TextField id="login_username" fx:id="login_username" layoutX="37.0" layoutY="232.0" prefHeight="44.0" prefWidth="328.0" promptText="username" styleClass="username-field" stylesheets="@style.css">
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                        </TextField>
+                        <PasswordField id="login_pass" fx:id="login_pass" layoutX="38.0" layoutY="283.0" prefHeight="48.0" prefWidth="328.0" promptText="password" styleClass="password-field" stylesheets="@style.css" />
+                        <Button id="login_button" fx:id="loginpage_button" layoutX="105.0" layoutY="375.0" mnemonicParsing="false" onAction="#loginBtn" prefHeight="58.0" prefWidth="189.0" styleClass="create-btn" stylesheets="@style.css" text="Login" textOverrun="CENTER_ELLIPSIS">
+                           <font>
+                              <Font size="8.0" />
+                           </font>
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </Button>
+                        <Hyperlink id="login_frgt_pass" fx:id="login_frgt_pass" layoutX="39.0" layoutY="340.0" text="Forgot Password ?">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Hyperlink>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </Pane>
+                  <Pane id="create_acc_page" fx:id="create_page" layoutX="10.0" layoutY="10.0" onMouseClicked="#closeform" prefHeight="591.0" prefWidth="392.0" styleClass="loginpage" stylesheets="@style.css" visible="false">
+                     <effect>
+                        <DropShadow height="58.42" radius="25.2025" width="44.39" />
+                     </effect>
+                     <children>
+                        <Pane layoutX="1.0" layoutY="1.0" prefHeight="31.0" prefWidth="390.0" styleClass="navbar-login" stylesheets="@style.css">
+                           <children>
+                              <Text fill="WHITE" layoutX="145.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account setup">
+                                 <font>
+                                    <Font name="Arial" size="14.0" />
+                                 </font>
+                              </Text>
+                              <ImageView id="arrow_down" fx:id="arrow_down" fitHeight="24.0" fitWidth="21.0" layoutX="361.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" styleClass="arrow-down">
+                                 <image>
+                                    <Image url="@../../../arrow.png" />
+                                 </image>
+                                 <effect>
+                                    <ColorAdjust brightness="-0.21" contrast="0.09" />
+                                 </effect>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <TextField id="create_name" fx:id="create_name" alignment="TOP_LEFT" layoutX="37.0" layoutY="232.0" prefHeight="44.0" prefWidth="328.0" promptText="Enter Your Name" styleClass="username-field" stylesheets="@style.css" />
+                        <ComboBox id="create_question" fx:id="create_question" layoutX="38.0" layoutY="353.0" prefHeight="44.0" prefWidth="328.0" promptText="Security Question" styleClass="question-field" stylesheets="@style.css" />
+                        <PasswordField id="create_pass" fx:id="create_Pass" layoutX="38.0" layoutY="283.0" prefHeight="48.0" prefWidth="328.0" promptText="Enter Your Password" styleClass="password-field" stylesheets="@style.css" />
+                        <TextField id="create_answer" fx:id="create_answer" layoutX="40.0" layoutY="416.0" prefHeight="44.0" prefWidth="328.0" promptText="Answer" styleClass="username-field" stylesheets="@style.css" />
+                        <Button id="create_page_button" fx:id="create_page_button" layoutX="101.0" layoutY="483.0" mnemonicParsing="false" onAction="#regBtn" prefHeight="58.0" prefWidth="189.0" styleClass="create-btn" stylesheets="@style.css" text="Create Account" textOverrun="CENTER_ELLIPSIS">
+                           <font>
+                              <Font size="8.0" />
+                           </font>
+                           <effect>
+                              <Glow level="0.41" />
+                           </effect>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </StackPane>
+            
+            
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" styleClass="window" stylesheets="@style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CodeMaster.python_notes_controller">
+   <children>
+      <Pane prefHeight="30.0" prefWidth="1000.0" stylesheets="@style.css">
+         <children>
+            <Label fx:id="close_window" layoutX="14.0" layoutY="7.0" minWidth="17.0" onMouseClicked="#closewindow" prefHeight="10.0" prefWidth="18.0" styleClass="close" stylesheets="@style.css">
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label layoutX="37.0" layoutY="7.0" minWidth="17.0" onMouseClicked="#backwindow" prefHeight="10.0" prefWidth="18.0" styleClass="min-button" stylesheets="@style.css">
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label fx:id="max_window" layoutX="59.0" layoutY="7.0" minWidth="17.0" onMouseClicked="#maximizeWindow" prefHeight="10.0" prefWidth="18.0" styleClass="max-button" stylesheets="@style.css">
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label layoutX="470.0" layoutY="6.0" text="Classroom" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+         </children>
+         <styleClass>
+            <String fx:value="navbar" />
+            <String fx:value="glass" />
+         </styleClass>
+      </Pane>
+      <ScrollPane hbarPolicy="NEVER" layoutX="13.0" layoutY="39.0" prefHeight="702.0" prefWidth="249.0" styleClass="scrollpane" stylesheets="@style.css" vbarPolicy="NEVER">
+         <content>
+            <Pane prefHeight="2020.0" prefWidth="247.0" styleClass="terminal_container" stylesheets="@style.css">
+               <children>
+                  <Button fx:id="b1" layoutY="14.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Overview" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b2" layoutY="64.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Installation and Getting Started" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b3" layoutY="114.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="What is Syntax?" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b4" layoutY="164.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Comments" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b5" layoutY="214.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Variables" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b6" layoutY="264.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Data Types" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b7" layoutY="314.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Numbers" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b8" layoutY="364.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Data Conversion" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b9" layoutY="414.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Operators" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b10" layoutY="464.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Booleans" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b11" layoutY="514.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Strings" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b12" layoutY="564.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Operation on Strings" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b13" layoutY="614.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="String Methods" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b14" layoutY="664.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Format Strings" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <!-- New buttons start here -->
+                  <Button fx:id="b15" layoutY="714.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Escape Characters" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b16" layoutY="764.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Lists" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b17" layoutY="814.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="List Indexes" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b18" layoutY="864.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Add List Items" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b19" layoutY="914.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Remove List Items" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b20" layoutY="964.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Change List Items" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b21" layoutY="1014.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="List Comprehension" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b22" layoutY="1064.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="List Methods" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b23" layoutY="1114.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Tuples" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b24" layoutY="1164.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Tuple Indexes" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b25" layoutY="1214.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Manipulating Tuples" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b26" layoutY="1264.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Unpack Tuples" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b27" layoutY="1314.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Sets" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b28" layoutY="1364.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Add/Remove Set Items" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b29" layoutY="1414.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Join Sets" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b30" layoutY="1464.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Set Methods" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b31" layoutY="1514.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Dictionaries" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b32" layoutY="1564.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Add/Remove Items" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b33" layoutY="1614.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Copy Dictionaries" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b34" layoutY="1664.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="if Statement" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b35" layoutY="1714.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="if-else Statement" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b36" layoutY="1764.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="elif Statement" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b37" layoutY="1814.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Nested if Statement" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b38" layoutY="1864.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python for Loop" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b39" layoutY="1914.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python while Loop" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b40" layoutY="1964.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Nested Loops" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b41" layoutY="2014.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Control Statements" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b42" layoutY="2064.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Functions" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b43" layoutY="2114.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Function Arguments" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b44" layoutY="2164.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="return Statement" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b45" layoutY="2214.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Recursion" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b46" layoutY="2264.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Modules" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b47" layoutY="2314.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Packages" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b48" layoutY="2364.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python OOPS" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b49" layoutY="2414.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="self method" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b50" layoutY="2464.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="__init__ method" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b51" layoutY="2514.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Iterators" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b52" layoutY="2564.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="JSON" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b53" layoutY="2614.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python try...except" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b54" layoutY="2664.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python PIP" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b55" layoutY="2714.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Data and Time" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b56" layoutY="2764.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python File Handling" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b57" layoutY="2814.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Read/Write Files" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+
+                  <Button fx:id="b37" layoutY="1814.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Nested if Statement" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b38" layoutY="1864.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python for Loop" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b39" layoutY="1914.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python while Loop" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b40" layoutY="1964.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Nested Loops" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b41" layoutY="2014.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Control Statements" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b42" layoutY="2064.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Functions" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b43" layoutY="2114.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Function Arguments" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b44" layoutY="2164.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="return Statement" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b45" layoutY="2214.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Recursion" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b46" layoutY="2264.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Modules" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b47" layoutY="2314.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Packages" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b48" layoutY="2364.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python OOPS" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b49" layoutY="2414.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="self method" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b50" layoutY="2464.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="__init__ method" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b51" layoutY="2514.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python Iterators" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b52" layoutY="2564.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="JSON" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b53" layoutY="2614.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python try...except" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b54" layoutY="2664.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python PIP" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b55" layoutY="2714.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Data and Time" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b56" layoutY="2764.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Python File Handling" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="b57" layoutY="2814.0" mnemonicParsing="false" onAction="#initialize" prefHeight="50.0" prefWidth="247.0" styleClass="notes_button" stylesheets="@style.css" text="Read/Write Files" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.5" />
+                     </effect>
+                  </Button>
+               </children>
+            </Pane>
+         </content>
+      </ScrollPane>
+       <ScrollPane hbarPolicy="NEVER" layoutX="272.0" layoutY="39.0" prefHeight="701.0" prefWidth="719.0" styleClass="scrollpane" stylesheets="@style.css" vbarPolicy="NEVER">
+         <content>
+            <Pane prefHeight="10000.0" prefWidth="714.0" styleClass="terminal_container" stylesheets="@style.css">
+               <children>
+                  <Text fx:id="content_holder" fill="WHITE" layoutX="10.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="697.13330078125">
+                     <font>
+                        <Font name="Comic Sans MS" size="18.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.4" />
+                     </effect>
+                  </Text>
+                  <Text fx:id="title_holder" fill="WHITE" layoutX="8.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="702.4666137695312">
+                     <font>
+                        <Font name="Century" size="24.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.4" />
+                     </effect>
+                  </Text>
+               </children></Pane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

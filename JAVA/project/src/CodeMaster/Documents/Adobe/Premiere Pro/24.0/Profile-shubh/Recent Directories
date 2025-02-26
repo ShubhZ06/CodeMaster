@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<recentcontainers Version="2">
+		<container.0 Version="1">
+			<containeritem.5 Version="1">
+				<containername>C: (Windows-SSD)</containername>
+				<containerpath>/Y/Y?/YC:/Y</containerpath>
+			</containeritem.5>
+			<containeritem.2 Version="1">
+				<containername>Premier Template</containername>
+				<containerpath>/Y/Y?/YC:/Yvideo edits/YMoments Slideshow MA/YPremier Template</containerpath>
+			</containeritem.2>
+			<containeritem.0 Version="1">
+				<containername>Final</containername>
+				<containerpath>DLSource:/X/XBin@C:/Yvideo edits/YMoments Slideshow MA/YPremier Template/YMoments Slideshow MA.prproj/X3356fea6-b898-4aef-adce-a72848adec46</containerpath>
+			</containeritem.0>
+			<containeritem.4 Version="1">
+				<containername>video edits</containername>
+				<containerpath>/Y/Y?/YC:/Yvideo edits</containerpath>
+			</containeritem.4>
+			<containeritem.3 Version="1">
+				<containername>Moments Slideshow MA</containername>
+				<containerpath>/Y/Y?/YC:/Yvideo edits/YMoments Slideshow MA</containerpath>
+			</containeritem.3>
+			<containeritem.1 Version="1">
+				<containername>Moments Slideshow MA</containername>
+				<containerpath>/Y/Y?/YC:/Yvideo edits/YMoments Slideshow MA/YPremier Template/YMoments Slideshow MA.prproj</containerpath>
+			</containeritem.1>
+			<containeritem.6 Version="1">
+				<containername>Local Drives</containername>
+				<containerpath>volumes:</containerpath>
+			</containeritem.6>
+			<containeritemcount>7</containeritemcount>
+		</container.0>
+		<containercount>1</containercount>
+	</recentcontainers>
+</PremiereData>
