@@ -19,16 +19,14 @@
 
 | Screen | Preview |
 |--------|---------|
-| **Home Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/home_screen.jpg?raw=true) |
-| **Register Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/register_screen.jpg?raw=true) |
-| **Login Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/login_screen.jpg?raw=true) |
-| **Classroom Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/classroom_screen.jpg?raw=true) |
-| **Course Content Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/course_content.jpg?raw=true) |
-| **Questions Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/questions_screen.jpg?raw=true) |
-| **Solution Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/solution_screen.jpg?raw=true) |
-| **Editor Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/editor_screen.jpg?raw=true) |
-
----
+| **Home Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/home_screen.png?raw=true) |
+| **Register Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/register_screen.png?raw=true) |
+| **Login Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/login_screen.png?raw=true) |
+| **Classroom Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/classroom_screen.png?raw=true) |
+| **Course Content Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/course_content.png?raw=true) |
+| **Questions Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/questions_screen.png?raw=true) |
+| **Solution Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/solution_screen.png?raw=true) |
+| **Editor Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/editor_screen.png?raw=true) |
 
 ## 🔧 Technologies Used
 
