@@ -19,14 +19,14 @@
 
 | Screen | Preview |
 |--------|---------|
-| **Home Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/home_screen.jpg?raw=true) |
-| **Register Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/register_screen.jpg?raw=true) |
-| **Login Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/login_screen.jpg?raw=true) |
-| **Classroom Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/classroom_screen.jpg?raw=true) |
-| **Course Content Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/course_content.jpg?raw=true) |
-| **Questions Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/questions_screen.jpg?raw=true) |
-| **Solution Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/solution_screen.jpg?raw=true) |
-| **Editor Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/editor_screen.jpg?raw=true) |
+| **Home Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/home_screen.jpg?raw=true) |
+| **Register Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/register_screen.jpg?raw=true) |
+| **Login Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/login_screen.jpg?raw=true) |
+| **Classroom Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/classroom_screen.jpg?raw=true) |
+| **Course Content Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/course_content.jpg?raw=true) |
+| **Questions Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/questions_screen.jpg?raw=true) |
+| **Solution Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/solution_screen.jpg?raw=true) |
+| **Editor Screen** | ![](https://github.com/ShubhZ06/CodeMaster/blob/main/assets/screenshots/editor_screen.jpg?raw=true) |
 
 ---
 
